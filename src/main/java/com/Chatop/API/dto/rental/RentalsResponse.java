@@ -1,0 +1,12 @@
+package com.Chatop.API.dto.rental;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+@AllArgsConstructor
+public class RentalsResponse {
+    private List<RentalResponse> rentals;
+}
